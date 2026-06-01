@@ -4,37 +4,58 @@ const colos = ["Guillaume 🦊", "Elsa 🛥️", "Azza 🐝", "Axel 🦋"];
 const vals  = ["Guillaume",    "Elsa",     "Azza",    "Axel"];
 const pick  = async (label) => await tp.system.suggester(colos, vals, false, label);
 
+// Grand ménage
 const vitres   = await pick("🪟 Vitres : qui ?");
 const frigo    = await pick("❄️ Frigo (vider + nettoyer) : qui ?");
 const four     = await pick("🍳 Four : qui ?");
-const machine  = await pick("🫧 Machine à laver (détartrage) : qui ?");
 const placards = await pick("🗄️ Placards : qui ?");
+
+// Entretien machines
+const laveLinge      = await pick("👕 Lave-linge — entretien complet : qui ?");
+const laveVaisselle  = await pick("🍽️ Lave-vaisselle — entretien complet : qui ?");
+const filtreHotte    = await pick("💨 Hotte — filtre : qui ?");
 
 const mois = tp.date.now("YYYY-MM");
 
-const lignesTaches = [
-  ["🪟 Vitres",                       vitres],
-  ["❄️ Frigo (vider + nettoyer)",    frigo],
-  ["🍳 Four",                          four],
-  ["🫧 Machine à laver — détartrage", machine],
-  ["🗄️ Placards",                    placards],
-].map(([t, r]) => `  <tr><td>${t}</td><td>${r}</td><td style="text-align:center">☐</td><td></td></tr>`).join("\n");
+const row = ([t, r]) => `  <tr><td>${t}</td><td>${r}</td><td style="text-align:center">☐</td><td></td></tr>`;
+
+const lignesMenage = [
+  ["🪟 Vitres",                    vitres],
+  ["❄️ Frigo (vider + nettoyer)", frigo],
+  ["🍳 Four",                      four],
+  ["🗄️ Placards",                 placards],
+].map(row).join("\n");
+
+const lignesMachines = [
+  ["👕 Lave-linge (détartrage + tiroir + joint)", laveLinge],
+  ["🍽️ Lave-vaisselle (filtre + bras rotatifs)", laveVaisselle],
+  ["💨 Hotte (filtre)",                           filtreHotte],
+].map(row).join("\n");
+
+const tableHeader = (cols) => `<table style="width:100%; border-collapse:collapse;">
+  <thead>
+    <tr>
+      ${cols.map(([label, w]) => `<th style="text-align:left; border-bottom:2px solid #000; width:${w}">${label}</th>`).join("\n      ")}
+    </tr>
+  </thead>`;
 
 const feuille = `# 📋 Feuille mensuelle ${mois}
 
-## ✅ Tâches
+## 🧹 Grand ménage
 
-<table style="width:100%; border-collapse:collapse;">
-  <thead>
-    <tr>
-      <th style="text-align:left; border-bottom:2px solid #000; width:45%">Tâche</th>
-      <th style="text-align:left; border-bottom:2px solid #000; width:25%">Responsable</th>
-      <th style="text-align:center; border-bottom:2px solid #000; width:10%">Fait ?</th>
-      <th style="text-align:left; border-bottom:2px solid #000; width:20%">Signature</th>
-    </tr>
-  </thead>
+${tableHeader([["Tâche","45%"],["Responsable","25%"],["Fait ?","10%"],["Signature","20%"]])}
   <tbody>
-${lignesTaches}
+${lignesMenage}
+  </tbody>
+</table>
+
+---
+
+## ⚙️ Entretien des machines
+
+${tableHeader([["Tâche","45%"],["Responsable","25%"],["Fait ?","10%"],["Signature","20%"]])}
+  <tbody>
+${lignesMachines}
   </tbody>
 </table>
 `;
@@ -47,13 +68,18 @@ mois: <% tp.date.now("YYYY-MM") %>
 
 # 🗓️ Mois <% tp.date.now("YYYY-MM") %>
 
-## ✅ Grand ménage mensuel
+## 🧹 Grand ménage mensuel
 
 - [ ] Vitres [par:: <% vitres %>] [pts:: 20]
 - [ ] Frigo vider + nettoyer [par:: <% frigo %>] [pts:: 25]
 - [ ] Four [par:: <% four %>] [pts:: 25]
-- [ ] Machine à laver — détartrage [par:: <% machine %>] [pts:: 20]
 - [ ] Placards [par:: <% placards %>] [pts:: 15]
+
+## ⚙️ Entretien des machines
+
+- [ ] Lave-linge — entretien complet [par:: <% laveLinge %>] [pts:: 20]
+- [ ] Lave-vaisselle — entretien complet [par:: <% laveVaisselle %>] [pts:: 15]
+- [ ] Hotte — filtre [par:: <% filtreHotte %>] [pts:: 10]
 
 ## 📊 Bilan du mois
 ```dataviewjs

@@ -12,22 +12,18 @@ const asp1       = await pick("🌀 Aspirateur #1 : qui ?");
 const asp2       = await pick("🌀 Aspirateur #2 : qui ?");
 const poubelle   = await pick("🗑️ Vider la poubelle : qui ?");
 const torchons   = await pick("🧺 Laver les torchons : qui ?");
-const vaisselle  = await pick("🍽️ Lave-vaisselle (lancer + vider) : qui ?");
-const linge      = await pick("👕 Lave-linge (lancer + étendre) : qui ?");
 
 const sem = tp.date.now("gggg-[W]ww");
 
 const lignesTaches = [
-  ["🚽 Toilettes — Mardi",       t_mardi],
-  ["🚽 Toilettes — Vendredi",    t_vendredi],
-  ["🧹 Sol javel #1",            sol1],
-  ["🧹 Sol javel #2",            sol2],
-  ["🌀 Aspirateur #1",           asp1],
-  ["🌀 Aspirateur #2",           asp2],
-  ["🗑️ Poubelle",               poubelle],
-  ["🧺 Torchons",                torchons],
-  ["🍽️ Lave-vaisselle",         vaisselle],
-  ["👕 Lave-linge",              linge],
+  ["🚽 Toilettes — Mardi",    t_mardi],
+  ["🚽 Toilettes — Vendredi", t_vendredi],
+  ["🧹 Sol javel #1",         sol1],
+  ["🧹 Sol javel #2",         sol2],
+  ["🌀 Aspirateur #1",        asp1],
+  ["🌀 Aspirateur #2",        asp2],
+  ["🗑️ Poubelle",            poubelle],
+  ["🧺 Torchons",             torchons],
 ].map(([t, r]) => `  <tr><td>${t}</td><td>${r}</td><td style="text-align:center">☐</td><td></td></tr>`).join("\n");
 
 const lignesPresence = vals.map((n, i) =>
@@ -99,8 +95,6 @@ responsable:
 ### Divers
 - [ ] Vider la poubelle (quand pleine) [par:: <% poubelle %>] [pts:: 5] 
 - [ ] Laver les torchons [par:: <% torchons %>] [pts:: 5] 
-- [ ] Lave-vaisselle (lancer + vider) [par:: <% vaisselle %>] [pts:: 8] 
-- [ ] Lave-linge (lancer + étendre) [par:: <% linge %>] [pts:: 8] 
 
 ## 📊 Bilan de la semaine
 ```dataviewjs

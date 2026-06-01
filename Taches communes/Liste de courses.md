@@ -19,6 +19,7 @@ Coche quand c'est acheté. Ajoute une ligne avec `- [ ] Produit` quand il manque
 - [ ] Sopalin / torchons
 - [ ] Spray vitres
 - [ ] Vinaigre blanc
+- [ ] Produit toilette
 
 ## Déjà en stock (décocher si épuisé)
 ```dataview

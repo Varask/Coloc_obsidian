@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Taches communes/Taches communes.md",
+                "file": "Tutos Nétoyages/Lave-linge — utilisation et entretien.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Taches communes"
+              "title": "Lave-linge — utilisation et entretien"
             }
           }
         ]
@@ -174,13 +174,23 @@
               "icon": "calendar-with-checkmark",
               "title": "Calendar"
             }
+          },
+          {
+            "id": "75658ce0b998d282",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
-        ]
+        ],
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,44 +202,45 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "templater-obsidian:Templater": false,
-      "homepage:Open homepage": false
+      "homepage:Open homepage": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "2d9a97dc6fa1f149",
   "lastOpenFiles": [
-    "Taches communes/Liste de courses.md",
+    "Templates/Modèle Mensuel.md",
+    "Mensuel/2026-06.md",
+    "Mensuel/2026-06 — feuille papier.md",
     "Hebdomadaire/2026-W23.md",
     "Hebdomadaire/2026-W23 — feuille papier.md",
-    "Mensuel/2026-06 — feuille papier.md",
-    "Mensuel/2026-06.md",
-    "Templates/Modèle Mensuel.md",
+    "Templates/Modèle Hebdomadaire.md.tmp.25060.66ef5f657d8d",
+    "Templates/Modèle Mensuel.md.tmp.25060.5d3075b80b3e",
     "Templates/Modèle Hebdomadaire.md",
-    "Templates/Modèle Hebdomadaire.md.tmp.16964.60c5c5c414e2",
-    "Tutos Nétoyages/Machine à laver — détartrage.md",
     "Tutos Nétoyages/Lave-linge — utilisation et entretien.md",
+    "Tutos Nétoyages/Machine à laver — détartrage.md",
+    "Taches communes/Liste de courses.md",
+    "Tutos Nétoyages/Lave-vaisselle — entretien.md",
+    "Tutos Nétoyages/Vitres — nettoyage.md",
+    "Taches communes/Taches communes.md",
+    "Templates/Modèle Colocataire.md",
     "Tutos Nétoyages/Frigo — nettoyage.md",
     "Tutos Nétoyages/Four — nettoyage.md",
-    "Templates/Modèle Colocataire.md",
+    "Untitled.md",
+    "Dashboard.md",
+    "Templates/Modèle Hebdomadaire.md.tmp.16964.60c5c5c414e2",
     "Colocataires/Axel.md",
     "Colocataires/Azza.md",
     "Colocataires/Elsa.md",
     "Colocataires/Guillaume.md",
-    "Taches communes/Taches communes.md",
-    "Tutos Nétoyages/Lave-vaisselle — entretien.md",
-    "Tutos Nétoyages/Vitres — nettoyage.md",
-    "Dashboard.md",
     "README - Installation.md",
     "Mensuel/2026-W23.md",
-    "Untitled.md",
     "Hebdomadaire/# 📆 Semaine 2026-W23.md",
-    "Mensuel/Mois 2026-06.md",
     "Tutos Nétoyages",
     "Taches communes",
     "Hebdomadaire",
     "Colocataires",
     "Mensuel",
     "Templates",
-    "coloc-dashboard.css",
-    "_Template_"
+    "coloc-dashboard.css"
   ]
 }
