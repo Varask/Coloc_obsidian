@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tutos Nétoyages/Lave-linge — utilisation et entretien.md",
+                "file": "Mensuel/2026-06 — feuille papier.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lave-linge — utilisation et entretien"
+              "title": "2026-06 — feuille papier"
             }
           }
         ]
@@ -203,44 +203,46 @@
       "bases:Create new base": false,
       "templater-obsidian:Templater": false,
       "homepage:Open homepage": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "periodic-notes:Open this week": false
     }
   },
-  "active": "2d9a97dc6fa1f149",
+  "active": "5f584d7bd327d42a",
   "lastOpenFiles": [
-    "Templates/Modèle Mensuel.md",
-    "Mensuel/2026-06.md",
+    "PDFs/2026-06 — feuille papier.pdf",
+    "PDFs/2026-W23 — feuille papier.pdf",
+    "PDFs",
+    "Tutos Nétoyages/Machine à laver — détartrage.md",
     "Mensuel/2026-06 — feuille papier.md",
-    "Hebdomadaire/2026-W23.md",
     "Hebdomadaire/2026-W23 — feuille papier.md",
+    "Dashboard.md",
+    "Mensuel/2026-06.md",
+    "Hebdomadaire/2026-W23.md",
+    "Tutos Nétoyages/Frigo — nettoyage.md",
+    "Tutos Nétoyages/Four — nettoyage.md",
+    "Tutos Nétoyages/Lave-linge — utilisation et entretien.md",
+    "Templates/Modèle Mensuel.md",
+    "Hebdomadaire/2026-W23.md",
     "Templates/Modèle Hebdomadaire.md.tmp.25060.66ef5f657d8d",
     "Templates/Modèle Mensuel.md.tmp.25060.5d3075b80b3e",
     "Templates/Modèle Hebdomadaire.md",
-    "Tutos Nétoyages/Lave-linge — utilisation et entretien.md",
-    "Tutos Nétoyages/Machine à laver — détartrage.md",
     "Taches communes/Liste de courses.md",
     "Tutos Nétoyages/Lave-vaisselle — entretien.md",
     "Tutos Nétoyages/Vitres — nettoyage.md",
     "Taches communes/Taches communes.md",
     "Templates/Modèle Colocataire.md",
-    "Tutos Nétoyages/Frigo — nettoyage.md",
-    "Tutos Nétoyages/Four — nettoyage.md",
     "Untitled.md",
-    "Dashboard.md",
     "Templates/Modèle Hebdomadaire.md.tmp.16964.60c5c5c414e2",
     "Colocataires/Axel.md",
     "Colocataires/Azza.md",
     "Colocataires/Elsa.md",
     "Colocataires/Guillaume.md",
     "README - Installation.md",
-    "Mensuel/2026-W23.md",
     "Hebdomadaire/# 📆 Semaine 2026-W23.md",
     "Tutos Nétoyages",
     "Taches communes",
     "Hebdomadaire",
     "Colocataires",
-    "Mensuel",
-    "Templates",
-    "coloc-dashboard.css"
+    "Mensuel"
   ]
 }
