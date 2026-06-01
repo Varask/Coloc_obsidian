@@ -1,0 +1,235 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "e7cb408c82f180e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2d9a97dc6fa1f149",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Taches communes/Taches communes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Taches communes"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "13d8ebe81028b9df",
+    "type": "split",
+    "children": [
+      {
+        "id": "c2faa3e7f79a626d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5f584d7bd327d42a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "fa4736c0ca7b4580",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "56ae0841f93f6491",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5f4c7a4cd596fc0a",
+    "type": "split",
+    "children": [
+      {
+        "id": "8fd2b5751bc3b9dd",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6772ba4ccbe52669",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Taches communes/Liste de courses.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Liste de courses"
+            }
+          },
+          {
+            "id": "6bedf963ca18406c",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Taches communes/Liste de courses.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Liste de courses"
+            }
+          },
+          {
+            "id": "f911ed073a222a70",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "ef99d94f338fe374",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "6f8927968ed18862",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Taches communes/Liste de courses.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Liste de courses"
+            }
+          },
+          {
+            "id": "9527c5939c4edd91",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false,
+      "homepage:Open homepage": false
+    }
+  },
+  "active": "2d9a97dc6fa1f149",
+  "lastOpenFiles": [
+    "Taches communes/Liste de courses.md",
+    "Hebdomadaire/2026-W23.md",
+    "Hebdomadaire/2026-W23 — feuille papier.md",
+    "Mensuel/2026-06 — feuille papier.md",
+    "Mensuel/2026-06.md",
+    "Templates/Modèle Mensuel.md",
+    "Templates/Modèle Hebdomadaire.md",
+    "Templates/Modèle Hebdomadaire.md.tmp.16964.60c5c5c414e2",
+    "Tutos Nétoyages/Machine à laver — détartrage.md",
+    "Tutos Nétoyages/Lave-linge — utilisation et entretien.md",
+    "Tutos Nétoyages/Frigo — nettoyage.md",
+    "Tutos Nétoyages/Four — nettoyage.md",
+    "Templates/Modèle Colocataire.md",
+    "Colocataires/Axel.md",
+    "Colocataires/Azza.md",
+    "Colocataires/Elsa.md",
+    "Colocataires/Guillaume.md",
+    "Taches communes/Taches communes.md",
+    "Tutos Nétoyages/Lave-vaisselle — entretien.md",
+    "Tutos Nétoyages/Vitres — nettoyage.md",
+    "Dashboard.md",
+    "README - Installation.md",
+    "Mensuel/2026-W23.md",
+    "Untitled.md",
+    "Hebdomadaire/# 📆 Semaine 2026-W23.md",
+    "Mensuel/Mois 2026-06.md",
+    "Tutos Nétoyages",
+    "Taches communes",
+    "Hebdomadaire",
+    "Colocataires",
+    "Mensuel",
+    "Templates",
+    "coloc-dashboard.css",
+    "_Template_"
+  ]
+}
